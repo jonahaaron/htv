@@ -1,0 +1,44 @@
+# Site settings
+title: Halter Service
+email: jonah@halterservice.com
+url: http://www.halterservice.com/
+description: "Halter TV Service is a television and computer repair business located in North Little Rock Arkansas at 1920 Percy Machin Drive. They offer affordable options for anyone not wishing to pay for a new television, display or computer"
+skills: "Experienced in TV Maintenance and Repair"
+
+# Contact form: comment the line below if you want to stick with the default PHP contact form
+contact: static
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary: 238A59 #80B3FF
+  primary-rgb: "35,138,89" #"128,179,255"
+  secondary: 2c3e50 #FD6E8A
+  secondary-dark: 233140 #A2122F
+
+# Footer settings
+footer:
+  copyright: Halter TV Service
+  location: Location
+  social: Around the Web
+  credits: 'Call Us <i style=" font-size: 30px; margin-left: 10px; " class="fa fa-mobile"></i>'
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: facebook
+    url: https://www.facebook.com/haltertvservice/info
+  - title: yelp
+    url: http://www.yelp.com/biz/halter-television-sales-and-service-company-north-little-rock
+  - title: google-plus
+    url: https://plus.google.com/104810482750076361278/about
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: 1920 Percy Machin Dr.
+  - line: North Little Rock, AR 72114
+
+# Credits content
+credits: '1 (501) 758-1494'
+
+# Build settings
+markdown: kramdown
+permalink: pretty
