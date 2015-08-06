@@ -1,0 +1,10 @@
+---
+layout: default
+modal-id: 2
+date: 2015-08-06
+img: samsung.jpg
+alt: image-alt
+brand: Samsung
+site: http://www.samsung.com/us/images/common/samsung-logo.jpg
+
+---
