@@ -540,7 +540,7 @@ footer .footer-below {
   vertical-align: middle;
 }
 
-.brands-item:last-child a:hover {
+.brands-item:last-child a:hover, .brands-link:focus {
   text-decoration: none;
 }
 
