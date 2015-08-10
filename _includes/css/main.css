@@ -111,7 +111,7 @@ header .intro-text .name {
 }
 
 header .intro-text .skills {
-  background-color: #238A59;
+  background-color: rgba(35, 138, 89, 0.8);
   border-radius: 3px;
   color: #fff;
   font-size: 1.25em;
