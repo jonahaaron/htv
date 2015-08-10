@@ -1,0 +1,10 @@
+---
+layout: default
+modal-id: 11
+date: 2015-08-10
+img: sanyo.jpg
+alt: Sanyo Logo
+brand: Sanyo
+site: http://sanyo-av.com/product/index.php?category=tv
+
+---

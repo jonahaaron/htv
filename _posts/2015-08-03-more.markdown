@@ -1,0 +1,10 @@
+---
+layout: default
+modal-id: 12
+date: 2015-08-10
+img: more.jpg
+alt: More Logo
+brand: More
+site: http://www.halterservice.com/
+
+---
