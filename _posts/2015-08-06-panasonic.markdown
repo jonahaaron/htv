@@ -1,6 +1,6 @@
 ---
 layout: default
-modal-id: 6
+modal-id: 10
 date: 2015-08-10
 img: panasonic.jpg
 alt: Panasonic Logo
