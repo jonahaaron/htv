@@ -57,6 +57,22 @@ hr.star-primary:after {
     font-size: 2em;
 }
 
+hr.star-light.wrench:after {
+    content: "\f0ad";
+}
+
+hr.star-light.money:after {
+    content: "\f0d6";
+}
+
+hr.star-light.desktop:after {
+    content: "\f108";
+}
+
+hr.star-light.phone:after {
+    content: "\f098";
+}
+
 hr.star-light {
     border-color: #fff;
 }
