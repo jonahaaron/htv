@@ -1,0 +1,10 @@
+---
+layout: default
+modal-id: 6
+date: 2015-08-10
+img: philips.jpg
+alt: Philips Logo
+brand: Philips
+site: http://www.usa.philips.com/c-m-so/televisions/
+
+---

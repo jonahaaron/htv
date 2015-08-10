@@ -1,0 +1,10 @@
+---
+layout: default
+modal-id: 5
+date: 2015-08-10
+img: toshiba.jpg
+alt: Toshiba Logo
+brand: Toshiba
+site: http://www.toshiba.com/us/tvs-electronics
+
+---

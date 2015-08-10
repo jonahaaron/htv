@@ -1,0 +1,10 @@
+---
+layout: default
+modal-id: 10
+date: 2015-08-10
+img: sharp.jpg
+alt: Sharp Logo
+brand: Sharp
+site: http://www.sharpusa.com/
+
+---

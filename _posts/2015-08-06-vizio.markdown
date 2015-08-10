@@ -1,0 +1,10 @@
+---
+layout: default
+modal-id: 7
+date: 2015-08-10
+img: vizio.jpg
+alt: Vizio Logo
+brand: Vizio
+site: http://www.vizio.com/tvs.html
+
+---

@@ -1,0 +1,10 @@
+---
+layout: default
+modal-id: 8
+date: 2015-08-10
+img: sony.jpg
+alt: Sony Logo
+brand: Sony
+site: http://store.sony.com/
+
+---
