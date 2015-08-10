@@ -8,6 +8,10 @@ body {
     overflow-x: hidden;
 }
 
+body.simple header .container {
+  padding-top: 30px;
+}
+
 p {
     font-size: 20px;
 }
@@ -118,6 +122,11 @@ header .intro-text {
   color: #2C3E50;
 }
 
+header .intro-text .fa-television {
+  display: block;
+  font-size: 19em;
+}
+
 header .intro-text .name {
     display: block;
     text-transform: uppercase;
@@ -132,8 +141,13 @@ header .intro-text .skills {
   color: #fff;
   font-size: 1.25em;
   font-weight: 300;
-  margin-top: 20px;
+  margin: 20px auto 0;
+  max-width: 500px;
   padding: 12px;
+}
+
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
+  color: #ccc;
 }
 
 @media(min-width:768px) {
