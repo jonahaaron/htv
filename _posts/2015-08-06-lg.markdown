@@ -1,9 +1,9 @@
 ---
 layout: default
 modal-id: 1
-date: 2014-07-18
+date: 2015-08-10
 img: lg.jpg
-alt: image-alt
+alt: LG Logo
 brand: LG
 site: http://www.lg.com/us/tvs/all-tvs
 
