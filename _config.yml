@@ -20,7 +20,7 @@ footer:
   copyright: Halter TV Service
   location: Location
   social: Around the Web
-  credits: '<i style="font-size: 30px; margin-right: 10px;" class="fa fa-mobile"></i> Call Us'
+  credits: 'Call Us <i style="font-size: 30px; margin-left: 10px;" class="fa fa-phone"></i>'
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
