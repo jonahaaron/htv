@@ -558,6 +558,9 @@ footer .footer-below {
   text-decoration: none;
 }
 
+.navbar-default .navbar-toggle .icon-bar { background-color: #ddd; }
+.navbar-default .navbar-toggle:hover .icon-bar, .navbar-default .navbar-toggle:focus .icon-bar { background-color: #777; }
+
 @media (max-width: 599px) {
   .contact-hdr br {
     display: none;
