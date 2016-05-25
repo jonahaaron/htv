@@ -1,64 +1,74 @@
- <!-- Brands Modals -->
- {% for post in site.posts %}
-    <div class="brands-modal modal fade" id="brandsModal-{{ post.modal-id }}" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>{{ post.title }} TV's</h2>
-                            <hr class="star-primary">
-                            <img src="img/brands/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
-                            <p> We have received and fixed many {{ post.title }} TV's over the years! </p>
-                            <ul class="list-inline item-details">
-                                <li>Visit:
-                                    <strong><a href="{{ post.site }}" target="_blank">{{ post.brand }}</a>
-                                    </strong>
-                                </li>
-                                <li>Repair:
-                                    <strong><a href="tel:501-758-1494">501-758-1494</a>
-                                    </strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
+<!-- Brands Modals -->
+{% for post in site.posts %}
+  <div class="brands-modal modal fade" id="brandsModal-{{ post.modal-id }}" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+      <div class="close-modal" data-dismiss="modal">
+        <div class="lr">
+          <div class="rl">
+          </div>
         </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2">
+            <div class="modal-body">
+              <h2>{{ post.title }} TV's</h2>
+              <hr class="star-primary">
+              <img src="img/brands/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
+              <p> We have received and fixed many {{ post.title }} TV's over the years! </p>
+              <ul class="list-inline item-details">
+                <li>Visit:
+                  <strong><a href="{{ post.site }}" target="_blank">{{ post.brand }}</a>
+                  </strong>
+                </li>
+                <li>Repair:
+                  <strong><a href="tel:501-758-1494">501-758-1494</a>
+                  </strong>
+                </li>
+              </ul>
+              <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
+  </div>
 {% endfor %}
 <div class="brands-modal modal fade" id="brandsModal-more" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-                <div class="rl">
-                </div>
-            </div>
+  <div class="modal-content">
+    <div class="close-modal" data-dismiss="modal">
+      <div class="lr">
+        <div class="rl">
         </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <div class="modal-body">
-                        <h2>Other Brands</h2>
-                        <hr class="star-primary">
-                        <p> We have received and fixed many more TV's over the years! </p>
-                        <ul class="list-inline item-details">
-                            <li>Repair:
-                                <strong><a href="tel:501-758-1494">501-758-1494</a>
-                                </strong>
-                            </li>
-                        </ul>
-                        <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                    </div>
-                </div>
-            </div>
-        </div>
+      </div>
     </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+          <div class="modal-body">
+            <h2>Some other brands:</h2>
+            <div id="other-tiles">
+              <img src="img/brands/mitsubishi.jpg">
+              <img src="img/brands/rca.jpg">
+              <img src="img/brands/philips.jpg">
+              <div class="hide show-mobile">
+                <img src="img/brands/panasonic.jpg">
+                <img src="img/brands/sanyo.jpg">
+                <img src="img/brands/vizio.jpg">
+              </div>
+            </div>
+            <hr class="star-primary">
+            <p> We have received and fixed many more TV's over the years! </p>
+            <ul class="list-inline item-details">
+              <li>Repair:
+                <strong><a href="tel:501-758-1494">501-758-1494</a>
+                </strong>
+              </li>
+            </ul>
+            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>

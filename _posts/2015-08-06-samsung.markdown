@@ -1,10 +1,11 @@
 ---
 layout: default
-modal-id: 2
+modal-id: 1
 date: 2015-08-10
 img: samsung.jpg
 alt: Samsung Logo
 brand: Samsung
+class: show
 site: http://www.samsung.com/us/video/tvs
 
 ---

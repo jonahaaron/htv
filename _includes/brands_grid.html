@@ -11,7 +11,7 @@
             <div class="row">
                 {% assign sorted_posts = (site.posts | sort: 'modal-id') %}
                 {% for post in sorted_posts %}
-                    <div class="col-sm-4 brands-item">
+                    <div class="col-xs-6 col-sm-4 brands-item {{ post.class }}">
                         <a href="#brandsModal-{{ post.modal-id }}" class="brands-link" data-toggle="modal">
                             <div class="caption">
                                 <div class="caption-content">
@@ -22,7 +22,7 @@
                         </a>
                     </div>
                 {% endfor %}
-                <div class="col-sm-4 brands-item">
+                <div class="col-xs-6 col-sm-4 brands-item">
                     <a href="#brandsModal-more" class="brands-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">

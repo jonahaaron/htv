@@ -1,10 +1,11 @@
 ---
 layout: default
-modal-id: 8
+modal-id: 5
 date: 2015-08-10
 img: toshiba.jpg
 alt: Toshiba Logo
 brand: Toshiba
+class: show
 site: http://www.toshiba.com/us/tvs-electronics
 
 ---

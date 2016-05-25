@@ -1,10 +1,11 @@
 ---
 layout: default
-modal-id: 5
+modal-id: 2
 date: 2015-08-10
 img: sony.jpg
 alt: Sony Logo
 brand: Sony
+class: show
 site: http://store.sony.com/
 
 ---

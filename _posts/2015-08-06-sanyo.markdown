@@ -1,10 +1,11 @@
 ---
 layout: default
-modal-id: 11
+modal-id: 10
 date: 2015-08-10
 img: sanyo.jpg
 alt: Sanyo Logo
 brand: Sanyo
+class: hide-mobile
 site: http://sanyo-av.com/product/index.php?category=tv
 
 ---
