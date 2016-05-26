@@ -591,4 +591,9 @@ footer .footer-below {
   .hide-mobile {
     display: none;
   }
+  
+  .brands-item:last-child .anchor {
+    font-size: 28px;
+    padding: 5%;
+  }
 }
