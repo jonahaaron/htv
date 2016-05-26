@@ -75,3 +75,15 @@ $('#contact-form').validate({
     formSuccess();
   }
 });
+
+// Match More Brands to Main Brands
+function resizeMoreBrands() {
+  var dif = $('.brands-item img:visible:last').height() - $('.brands-item:last-child .anchor').height();
+  $('.brands-item:last-child .anchor').css('padding', dif / 2 + 'px 0');
+}
+
+resizeMoreBrands();
+window.addEventListener('resize', function() {
+  resizeMoreBrands();
+}, false);
+
