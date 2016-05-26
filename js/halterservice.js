@@ -77,13 +77,17 @@ $('#contact-form').validate({
 });
 
 // Match More Brands to Main Brands
+var moreBrands_pad = 0;
+
 function resizeMoreBrands() {
   var dif = $('.brands-item img:visible:last').height() - $('.brands-item:last-child .anchor').height();
-  $('.brands-item:last-child .anchor').css('padding', dif / 2 + 'px 0');
+  if (dif / 2 !== moreBrands_pad) {
+    moreBrands_pad = dif / 2;
+    $('.brands-item:last-child .anchor').css('padding', moreBrands_pad + 'px 0');
+  } else return;
 }
 
 resizeMoreBrands();
 window.addEventListener('resize', function() {
   resizeMoreBrands();
 }, false);
-
