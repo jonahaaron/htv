@@ -576,10 +576,6 @@ footer .footer-below {
   background-color: #2B794E !important;
 }
 
-#button-navbar-collapse-1 {
-  border-bottom: solid 1px #fff;
-}
-
 .hide { display: none; }
 .show { display: block; }
 
@@ -594,5 +590,9 @@ footer .footer-below {
   
   .hide-mobile {
     display: none;
+  }
+
+  #button-navbar-collapse-1 {
+    border-bottom: solid 1px #fff;
   }
 }
