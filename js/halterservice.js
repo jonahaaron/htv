@@ -91,3 +91,6 @@ resizeMoreBrands();
 window.addEventListener('resize', function() {
   resizeMoreBrands();
 }, false);
+
+// Update copyright year
+$('footer .curYr').text(new Date().getFullYear());
