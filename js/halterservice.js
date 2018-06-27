@@ -117,13 +117,13 @@ $('footer .curYr').text(new Date().getFullYear());
 
 // Brand GA Events
 $('.brands-link').click(function() {
-  var brandHdrTxt = $($(this).attr('href')).find('h2').text();
+  var brandHdrTxt = $($(this).attr('href')).attr('data-brand-type');
   ga('send', 'event', 'Brands Modal', 'open', brandHdrTxt);
 });
 
 // Modal Brand Link GA Events
-$('.modal-body a[target="_blank"]').click(function() {
-  ga('send', 'event', 'Brands Modal', 'navigate', $(this).text());
+$('.brands-modal a[target="_blank"]').click(function() {
+  ga('send', 'event', 'Brands Modal', 'navigate', $(this).closest('.brands-modal').attr('data-brand-type'));
 });
 
 // Phone GA Events
