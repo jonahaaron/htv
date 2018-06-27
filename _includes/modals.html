@@ -1,6 +1,6 @@
 <!-- Brands Modals -->
 {% for post in site.posts %}
-  <div class="brands-modal modal fade" id="brandsModal-{{ post.modal-id }}" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="brands-modal modal fade" id="brandsModal-{{ post.modal-id }}" tabindex="-1" role="dialog" aria-hidden="true" data-brand-type="{{ post.brand }}">
     <div class="modal-content">
       <div class="close-modal" data-dismiss="modal">
         <div class="lr">
@@ -22,7 +22,7 @@
                   </strong>
                 </li>
                 <li>Repair:
-                  <strong><a href="tel:501-758-1494">501-758-1494</a>
+                  <strong><a href="tel:{{ site.phone.tel }}" class="phone" data-label="Brand Modal Phone">{{ site.phone.short }}</a>
                   </strong>
                 </li>
               </ul>
@@ -61,7 +61,7 @@
             <p> We have received and fixed many more TV's over the years! </p>
             <ul class="list-inline item-details">
               <li>Repair:
-                <strong><a href="tel:501-758-1494">501-758-1494</a>
+                <strong><a href="tel:{{ site.phone.tel }}" class="phone" data-label="Brand Item Phone">{{ site.phone.short }}</a>
                 </strong>
               </li>
             </ul>

@@ -102,3 +102,10 @@ $('.brands-link').click(function() {
     nonInteraction: true
   });
 });
+
+// Phone GA Events
+$('a.phone').click(function() {
+  ga('send', 'event', 'Brands', 'click', $(this).attr('data-label'), {
+    nonInteraction: true
+  });
+});
