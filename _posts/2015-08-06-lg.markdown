@@ -6,6 +6,6 @@ img: lg.jpg
 alt: LG Logo
 brand: LG
 class: show
-site: http://www.lg.com/us/tvs/all-tvs
+site: http://www.lg.com/us/tvs
 
 ---

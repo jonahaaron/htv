@@ -18,7 +18,7 @@ $(function() {
 // Floating label headings for the contact form
 $(function() {
   $("body").on("input propertychange", ".floating-label-form-group", function(e) {
-    $(this).toggleClass("floating-label-form-group-with-value", !! $(e.target).val());
+    $(this).toggleClass("floating-label-form-group-with-value", !!$(e.target).val());
   }).on("focus", ".floating-label-form-group", function() {
     $(this).addClass("floating-label-form-group-with-focus");
   }).on("blur", ".floating-label-form-group", function() {
@@ -94,3 +94,11 @@ window.addEventListener('resize', function() {
 
 // Update copyright year
 $('footer .curYr').text(new Date().getFullYear());
+
+// Brand GA Events
+$('.brands-link').click(function() {
+  var brandHdrTxt = $($(this).attr('href')).find('h2').text();
+  ga('send', 'event', 'Brands', 'click', brandHdrTxt, {
+    nonInteraction: true
+  });
+});

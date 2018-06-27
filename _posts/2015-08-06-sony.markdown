@@ -6,6 +6,6 @@ img: sony.jpg
 alt: Sony Logo
 brand: Sony
 class: show
-site: http://store.sony.com/
+site: https://www.sony.com/electronics/tv/t/televisions
 
 ---

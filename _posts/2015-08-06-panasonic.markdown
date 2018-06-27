@@ -6,6 +6,6 @@ img: panasonic.jpg
 alt: Panasonic Logo
 brand: Panasonic
 class: hide-mobile
-site: http://shop.panasonic.com/tvs/all-tvs
+site: https://www.panasonic.com/in/consumer/home-entertainment.html
 
 ---

@@ -6,6 +6,6 @@ img: toshiba.jpg
 alt: Toshiba Logo
 brand: Toshiba
 class: show
-site: http://www.toshiba.com/us/tvs-electronics
+site: http://tvna.compal-toshiba.com/us/en/
 
 ---

@@ -6,6 +6,6 @@ img: sharp.jpg
 alt: Sharp Logo
 brand: Sharp
 class: show
-site: http://www.sharpusa.com/
+site: https://www.sharptvusa.com/
 
 ---
