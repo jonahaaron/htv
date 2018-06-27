@@ -124,3 +124,10 @@ $('.brands-link').click(function() {
 $('a.phone').click(function() {
   ga('send', 'event', 'Phone', 'click', $(this).attr('data-label'));
 });
+
+// Social GA Events
+$('.btn-social').click(function() {
+  ga('send', 'event', 'Social', 'click', $(this).find('.fa').attr('class').split('fa-')[2], {
+    nonInteraction: true
+  });
+});
