@@ -78,7 +78,7 @@ $('#contact-form').validate({
       $("div.error span").html(message);
       $("div.error").show();
 
-      ga('send', 'event', 'Form', 'submit', errors + 'errors');
+      ga('send', 'event', 'Form', 'submit', errors + ' errors');
     } else {
       $("div.error").hide();
     }
