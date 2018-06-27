@@ -80,6 +80,9 @@ $('#contact-form').validate({
       $("div.error span").html(message);
       $("div.error").show();
 
+      console.log([event, validator]);
+
+      return;
       ga('send', 'event', 'Form', 'submit', errors + ' errors');
     } else {
       $("div.error").hide();
@@ -115,7 +118,12 @@ $('footer .curYr').text(new Date().getFullYear());
 // Brand GA Events
 $('.brands-link').click(function() {
   var brandHdrTxt = $($(this).attr('href')).find('h2').text();
-  ga('send', 'event', 'Brands', 'click', brandHdrTxt);
+  ga('send', 'event', 'Brands Modal', 'open', brandHdrTxt);
+});
+
+// Modal Brand Link GA Events
+$('.modal-body a[target="_blank"]').click(function() {
+  ga('send', 'event', 'Brands Modal', 'navigate', $(this).text());
 });
 
 // Phone GA Events
