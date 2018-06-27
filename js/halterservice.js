@@ -69,10 +69,25 @@ $('#contact-form').validate({
       minlength: 6
     },
   },
+  invalidHandler: function(event, validator) {
+    var errors = validator.numberOfInvalids();
+    if (errors) {
+      var message = errors == 1 ?
+        'You missed 1 field. It has been highlighted' :
+        'You missed ' + errors + ' fields. They have been highlighted';
+      $("div.error span").html(message);
+      $("div.error").show();
+
+      ga('send', 'event', 'Form', 'submit', errors + 'errors');
+    } else {
+      $("div.error").hide();
+    }
+  },
   submitHandler: function(form) {
     event.preventDefault();
     $.post($(form).attr('action'), $(form).serialize());
     formSuccess();
+    ga('send', 'event', 'Form', 'submit', 'success');
   }
 });
 
@@ -98,14 +113,10 @@ $('footer .curYr').text(new Date().getFullYear());
 // Brand GA Events
 $('.brands-link').click(function() {
   var brandHdrTxt = $($(this).attr('href')).find('h2').text();
-  ga('send', 'event', 'Brands', 'click', brandHdrTxt, {
-    nonInteraction: true
-  });
+  ga('send', 'event', 'Brands', 'click', brandHdrTxt);
 });
 
 // Phone GA Events
 $('a.phone').click(function() {
-  ga('send', 'event', 'Phone', 'click', $(this).attr('data-label'), {
-    nonInteraction: true
-  });
+  ga('send', 'event', 'Phone', 'click', $(this).attr('data-label'));
 });

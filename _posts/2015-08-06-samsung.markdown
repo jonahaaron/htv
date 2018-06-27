@@ -6,6 +6,6 @@ img: samsung.jpg
 alt: Samsung Logo
 brand: Samsung
 class: show
-site: http://www.samsung.com/us/video/tvs
+site: //www.samsung.com/us/video/tvs
 
 ---

@@ -6,6 +6,6 @@ img: vizio.jpg
 alt: Vizio Logo
 brand: Vizio
 class: hide-mobile
-site: http://www.vizio.com/tvs.html
+site: //www.vizio.com/tvs.html
 
 ---

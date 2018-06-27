@@ -100,8 +100,8 @@ hr.star-primary:after {
 }
 
 header {
-  background-color: #{{ site.color.primary }};
-  background-image: url(img/nlr-scape.jpg);
+  background-color: #f2f2f2;
+  background-image: url(//htv-services.s3-us-west-2.amazonaws.com/nlr-scape.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   color: #fff;
@@ -365,6 +365,10 @@ section.success {
 
 .floating-label-form-group-with-focus label {
     color: #{{ site.color.primary }};
+}
+
+.floating-label-form-group-with-focus label.error {
+  color: #ea0000;
 }
 
 form .row:first-child .floating-label-form-group {
