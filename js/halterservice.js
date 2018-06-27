@@ -105,7 +105,7 @@ $('.brands-link').click(function() {
 
 // Phone GA Events
 $('a.phone').click(function() {
-  ga('send', 'event', 'Brands', 'click', $(this).attr('data-label'), {
+  ga('send', 'event', 'Phone', 'click', $(this).attr('data-label'), {
     nonInteraction: true
   });
 });
