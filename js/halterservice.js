@@ -7,9 +7,7 @@
 // jQuery for page scrolling feature - requires jQuery Easing plugin
 $(function() {
   $('.page-scroll a').bind('click', function(event) {
-    ga('send', 'event', 'Navigation', 'click', $(this).attr('href'), {
-      nonInteraction: true
-    });
+    ga('send', 'event', 'Navigation', 'click', $(this).attr('href'));
 
     var $anchor = $(this);
     $('html, body').stop().animate({
@@ -127,7 +125,5 @@ $('a.phone').click(function() {
 
 // Social GA Events
 $('.btn-social').click(function() {
-  ga('send', 'event', 'Social', 'click', $(this).find('.fa').attr('class').split('fa-')[2], {
-    nonInteraction: true
-  });
+  ga('send', 'event', 'Social', 'click', $(this).attr('data-label'));
 });
