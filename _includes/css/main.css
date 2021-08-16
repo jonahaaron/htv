@@ -444,10 +444,7 @@ footer .footer-col {
 
 footer .footer-below {
   padding: 25px 0;
-  background-color: #{{ site.color.secondary-dark }}
-}
-
-;
+  background-color: #{{ site.color.secondary-dark }};
 }
 
 .btn-social {
@@ -554,10 +551,7 @@ transform: rotate(90deg);
 }
 
 .navbar-nav>.active>a {
-  background-color: #{{ site.color.secondary-dark }}
-}
-
- !important;
+  background-color: #{{ site.color.secondary-dark }} !important;
 }
 
 .navbar-default {
