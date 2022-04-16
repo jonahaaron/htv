@@ -649,6 +649,16 @@ transform: rotate(90deg);
   display: block;
 }
 
+.call-alternative {
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.intro-text .call-alternative {
+    color: #fff;
+    text-shadow: 1px 1px 0 #2d3d4f;
+}
+
 @media (max-width: 766px) {
   .contact-hdr br {
     display: none;

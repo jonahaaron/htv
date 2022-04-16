@@ -9,7 +9,10 @@
     </div>
     <div class="row">
       <div class="col-lg-12 text-center">
-        <p class="contact-hdr"> By calling us at: <a class="phone phone-nbr" href="tel:{{ site.phone.tel }}" data-label="Contact Phone">{{ site.phone.short }}</a></p>
+        <p class="contact-hdr">
+          By calling us at: <a class="phone phone-nbr" href="tel:{{ site.phone.tel }}" data-label="Contact Phone">{{ site.phone.short }}</a>
+          <div class="call-alternative">or SMS: {{ site.phone.sms }}</div>
+      </p>
       </div>
     </div>
   </div>
