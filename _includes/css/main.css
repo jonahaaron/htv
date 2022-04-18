@@ -26,10 +26,7 @@ a:focus,
 a:active,
 a.active {
   outline: 0;
-  color: #{{ site.color.primary }}
-}
-
-;
+  color: #{{ site.color.primary }};
 }
 
 h1,
@@ -86,25 +83,16 @@ hr.star-light {
 
 hr.star-light:after {
   color: #fff;
-  background-color: #{{ site.color.primary }}
-}
-
-;
+  background-color: #{{ site.color.primary }};
 }
 
 hr.star-primary {
-  border-color: #{{ site.color.secondary }}
-}
-
-;
+  border-color: #{{ site.color.primary }};
 }
 
 hr.star-primary:after {
-  color: #{{ site.color.secondary }}
-}
-
-;
-background-color: #fff;
+  background-color: #fff;
+  color: #{{ site.color.primary }};
 }
 
 .img-centered {
@@ -236,10 +224,7 @@ section h2 {
 
 section.success {
   color: #fff;
-  background: #{{ site.color.primary }}
-}
-
-;
+  background: #{{ site.color.primary }};
 }
 
 @media(max-width:767px) {
@@ -270,20 +255,16 @@ section.success {
   height: 100%;
   opacity: 0;
 
-  background: rgba( {
-      {
-      site.color.primary-rgb
-    }
-  }
-
-  , .9);
+  background: rgba(#{{ site.color.primary }}, .9);
   -webkit-transition: all ease .5s;
   -moz-transition: all ease .5s;
   transition: all ease .5s;
 }
 
 #brands .brands-item .brands-link .caption:hover {
-  opacity: 1;
+  background: #238a59;
+  border-radius: 6px;
+  opacity: 0.5;
 }
 
 #brands .brands-item .brands-link .caption .caption-content {
@@ -351,12 +332,9 @@ section.success {
 .btn-outline:focus,
 .btn-outline:active,
 .btn-outline.active {
+  background: #fff;
   border: solid 2px #fff;
-  color: #{{ site.color.primary }}
-}
-
-;
-background: #fff;
+  color: #{{ site.color.primary }};
 }
 
 .floating-label-form-group {
@@ -408,10 +386,7 @@ background: #fff;
 }
 
 .floating-label-form-group-with-focus label {
-  color: #{{ site.color.primary }}
-}
-
-;
+  color: #{{ site.color.primary }};
 }
 
 .floating-label-form-group-with-focus label.error {
