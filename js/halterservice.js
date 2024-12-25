@@ -113,7 +113,7 @@ window.addEventListener('resize', function() {
 }, false);
 
 // Update copyright year
-$('footer .curYr').text(new Date().getFullYear());
+// $('footer .curYr').text(new Date().getFullYear());
 
 // Brand GA Events
 $('.brands-link').click(function() {

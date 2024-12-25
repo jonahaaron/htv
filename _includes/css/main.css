@@ -716,7 +716,7 @@ dialog::backdrop {
 }
 
 dialog[open]::backdrop {
-  background-color: rgb(0 0 0 / 25%);
+  background-color: rgb(0 0 0 / 55%);
 }
 
 /* This starting-style rule cannot be nested inside the above selector
@@ -727,3 +727,5 @@ because the nesting selector cannot represent pseudo-elements. */
     background-color: rgb(0 0 0 / 0%);
   }
 }
+
+[data-type="tel"], .phone, .call-alternative { filter: blur(3px); }
